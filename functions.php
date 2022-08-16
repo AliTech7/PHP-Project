@@ -19,7 +19,7 @@ function append()
     $a = fopen("library.csv", "a+");
 
     if (!fputcsv($a, $chart)) {
-        die("LIII");
+        die("Nop");
     }
 
     fclose($a);
